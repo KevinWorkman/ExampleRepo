@@ -10,4 +10,8 @@ public class HelloWorldPrinter {
     System.out.println("Hello world!");
   }
 
+  public void printHelloMessage(String name) {
+    System.out.println("Hello " + name + "!");
+  }
+
 }
