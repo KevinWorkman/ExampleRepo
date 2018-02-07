@@ -21,4 +21,11 @@ public class HelloWorldPrinterTest {
 
     Mockito.verify(mockSystemOut).println("Hello world!");
   }
+
+  @Test
+  public void testPrintHelloMessage() {
+    helloWorldPrinter.printHelloMessage("test user");
+
+    Mockito.verify(mockSystemOut).println("Hello test user!");
+  }
 }
