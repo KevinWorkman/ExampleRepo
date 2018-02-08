@@ -12,7 +12,7 @@ public class HelloWorldPrinter {
 
   /**
    * Prints a hello message using the supplied name. For example: printHelloMessage("Ada") will
-   * print "Hello Ada!".
+   * print "Hello Ada!". Throws an IllegalArgumentException if name is null.
    */
   public void printHelloMessage(String name) {
     if(name == null) {
